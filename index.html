@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<!--link rel="stylesheet" href="css/theme/black.css"-->
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<link rel="stylesheet" href="css/tg.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+					<section
+						data-background-image='./img/fatec1.png'
+						data-background-size='50% auto'
+						data-background-position='top'
+					>
+							<h2>Some Slide</h2>
+						
+							<aside class="notes">
+								Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+							</aside>
+						</section>
+
+
+				<section>
+					<div>
+						<img class='imgl' src="./img/fatec1.png" alt="ctps governo do estado de são paulo">
+						<img class='imgr' src="./img/fatec2.png" alt="fatec franca">
+						<br class ='clear'>
+					</div>
+					<h3>Assistencia Acadêmica</h3>
+					<section>
+						<p>Calendário Acadêmico da Fatec</p>
+					</section>
+					<section>
+						<p>Calendário da Secretária</p>
+					</section>
+					<section>
+							<p>Calendário Acadêmico dos Alunos</p>
+						</section>
+				</section>
+
+
+				<section>
+					<div>
+						<img class='imgl' src="./img/fatec1.png" alt="ctps governo do estado de são paulo">
+						<img class='imgr' src="./img/fatec2.png" alt="fatec franca">
+						<br class ='clear'>
+					</div>
+					<h3>
+						recursos de Inteligência Artificial disponíveis aos desenvolvedores
+					</h3>
+					<section>
+							<p>Velocidade de desenvolvimento</p>
+					</section>
+					<section>
+							<p>Facilidade de integração</p>
+					</section>
+				</section>
+
+
+				<section>
+						<p>Não precisamos prover todos recurso ...</p>
+						<p class="fragment" data-autoslide="5000">IaaS - Infra estrutura como serviço</p>
+						<p class="fragment" data-autoslide="5000">PaaS - Plataforma como serviço</p>
+						<p class="fragment" data-autoslide="10000">SaaS - Serviço como serviço</p>
+				</section>
+				<section data-autoslide="2000">
+						<p>After 2 seconds the first fragment will be shown.</p>
+						<p class="fragment" data-autoslide="10000">After 10 seconds the next fragment will be shown.</p>
+						<p class="fragment">Now, the fragment is displayed for 2 seconds before the next slide is shown.</p>
+					</section>
+				<section>PNL</section>
+				<section>Chatterbot</section>
+				<section>smartphones e comunicando em linguagem natural.</section>
+				<section>definição da arquitetura do projeto,</section>
+				<section>UI, UX e PWA</section>
+				<section>usuários da versão beta do projeto;</section>
+				<section>Aws Microsoft</section>
+				<section>Módulo Central de Integração</section>
+				<section>WorkerCrawler</section>
+				<section>Watson Assistent</section>
+				<section>mais consumidor de informações e serviços</section>
+				<section>MarinaBot, cujo objetivo é fornecer aos alunos da Fatec Franca</section>
+				<section>Teste de Turing.</section>
+				<section>Os módulos ClienteVoz e ClienteWpa</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				transition: 'convex',
+				progress: true,
+				slideNumber: true,
+				autoSlide: 5000,
+				defaultTiming: 5,
+				autoSlideMethod: Reveal.navigateNext,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
