@@ -1,20 +1,13 @@
 <!doctype html>
 <html>
+
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title>reveal.js</title>
-		
+		<title>MarinaBot</title>
 		<link rel="stylesheet" href="css/reveal.css">
-		<!--link rel="stylesheet" href="css/theme/black.css"-->
-		<link rel="stylesheet" href="css/theme/white.css">
-		
-		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="css/theme/white.css">		
 		<link rel="stylesheet" href="lib/css/zenburn.css">
-		
-		
-		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
@@ -23,13 +16,14 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 		<link rel="stylesheet" href="css/tg.css">
-		
 	</head>
+
+
 	<body>
 		<div class="reveal">
 			<div class="slides">
 
-				<section>
+				<section id='apresentacao'>
 					<div class='capa'>
 						<img class='imgl' src="./img/fatec1.png" alt="ctps governo do estado de são paulo">
 						<img class='imgr' src="./img/fatec2.png" alt="fatec franca">
@@ -42,27 +36,66 @@
 						<p class ='b'>FRANCA/SP<br/>29 DE NOVEMBRO DE 2018</p>
 	
 					</div>
+				</section>
+
+
+				<section id='introducao'>
+					<div>
+						<img class='imgl' src="./img/fatec1.png" alt="ctps governo do estado de são paulo">
+						<img class='imgr' src="./img/fatec2.png" alt="fatec franca">
+						<br class ='clear'>
+					</div>
+					<h4>Inteligência artificial no dia a dia</h4>
+
+					<section>
+						<p class="fragment">Evoluções e resultados</p>
+						<p class="fragment"> 
+							Computação em nuvem<br/>
+							IaaS - Infra estrutura como serviço<br/>
+							PaaS - Plataforma como serviço<br/>
+							SaaS - Software como serviço
+						</p>
+						
 					</section>
 
 					<section>
-						<div>
-							<img class='imgl' src="./img/fatec1.png" alt="ctps governo do estado de são paulo">
-							<img class='imgr' src="./img/fatec2.png" alt="fatec franca">
-							<br class ='clear'>
-						</div>
-						<section>
-							<h2>Inteligência artificial no dia a dia</h2>
 							<p>
-								Reconhecimento de pessoas no facebook<br/>
-								Assitente pessoal no google<br/>
-								Composição musical no Spotfy</h3>
-							</p>
-							
-						</section>
-						<aside class="notes">
-							Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
-						</aside>
+									Reconhecimento de pessoas no facebook<br/>
+									Assitente pessoal no google<br/>
+									Composição musical no Spotfy</h3>
+								</p>
 					</section>
+
+					<section>
+						<p>
+							Chatterbot é um programa que fornece interação por meio de linguagem natural
+						</p>
+					</section>
+
+					<section>
+						<br/>
+						<p id='cassia-sampaio'>
+							"Eu trabalhei bastante usando chatbots para tirar o peso do pessoal de suporte de ter que responder tantas perguntas, e geralmente repetidas. Conseguir aliviar isso para uma equipe usando um bot. É uma maravilha ao meu ver."
+							<br><strong>Cássia Sampaio</strong>
+						</p>
+					</section>
+
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+					</aside>
+				</section>
+
+
+				<section id="objetivo">
+					<div>
+						<img class='imgl' src="./img/fatec1.png" alt="ctps governo do estado de são paulo">
+						<img class='imgr' src="./img/fatec2.png" alt="fatec franca">
+						<br class ='clear'>
+					</div>
+
+					<section>
+					</section>
+				</section>
 
 
 					<section>
@@ -76,9 +109,7 @@
 						</section>
 						<section>
 								<p>Não precisamos prover todos recurso ...<br/> de Inteligência Artificial aos desenvolvedores</p>
-								<p class="fragment" data-autoslide="7000">IaaS - Infra estrutura como serviço
-									<br/>PaaS - Plataforma como serviço
-									<br/>SaaS - Software como serviço</p>
+								
 						</section>
 
 						<section>
@@ -203,8 +234,8 @@
 				transition: 'convex',
 				progress: true,
 				slideNumber: true,
-				autoSlide: 7000,
-				defaultTiming: 5,
+				//autoSlide: 7000,
+				//defaultTiming: 5,
 				autoSlideMethod: Reveal.navigateNext,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
