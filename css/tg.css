@@ -22,3 +22,15 @@ img{
     border: none;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.15);
 }
+
+
+.capa p{
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.capa p.b{
+    font-size: 35px;
+    line-height: 1.3;
+    font-weight: bold;
+}
